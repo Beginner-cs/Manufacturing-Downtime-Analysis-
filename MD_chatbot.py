@@ -8,7 +8,7 @@ import numpy as np
 # ---------------------------
 # 1. Gemini Client
 # ---------------------------
-client = genai.Client(api_key="AIzaSyBNuE1WsAeEKbYne0apxuZnVUCvM2bW7BY")  # Replace with your actual API key
+client = genai.Client(api_key="API_KEY")  # Replace with your actual API key
 
 # ---------------------------
 # 2. Load CSVs
@@ -309,4 +309,5 @@ with col7:
     ax4.set_xlabel("Date")
     plt.xticks(rotation=45)
     st.pyplot(fig4)
+
     st.markdown('</div>', unsafe_allow_html=True)
